@@ -14,6 +14,7 @@ import lombok.NoArgsConstructor;
 public class Flower {
         @Id
         @GeneratedValue(strategy = GenerationType.IDENTITY)
+        private Long id;
 
         String flowertype;
         String flowercolor;

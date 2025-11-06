@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 
 import ua.edu.ucu.apps.lab8.model.AppUser;
 import ua.edu.ucu.apps.lab8.repository.AppUserRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 
 @Service
 public class AppUserService {
