@@ -20,4 +20,8 @@ public class FlowerService {
     public List<Flower> getFlowers() {
         return flowerrepository.findAll();
     }
+
+    public Flower addFlower(Flower flower) {
+        return flowerrepository.save(flower);
+    }
 }
