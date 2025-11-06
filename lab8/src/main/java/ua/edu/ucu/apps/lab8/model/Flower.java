@@ -6,18 +6,17 @@ import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
 @Data 
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
 public class Flower {
-        @Id
-        @GeneratedValue(strategy = GenerationType.IDENTITY)
-        private Long id;
-
-        String flowertype;
-        String flowercolor;
-        double price;
-        boolean availible;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    
+    private String flowertype;
+    private String flowercolor;
+    private double price;
+    private boolean availible;  
 }

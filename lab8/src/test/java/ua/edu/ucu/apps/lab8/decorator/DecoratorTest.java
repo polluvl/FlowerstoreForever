@@ -10,7 +10,6 @@ class DecoratorTest {
 
     @BeforeEach
     void setUp() {
-        // Створюємо анонімний клас для тестування
         baseItem = new Item() {
             {
                 setDescription("Base Item");
